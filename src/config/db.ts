@@ -8,6 +8,4 @@ const client = redis.createClient({
     },
 });
 
-client.on('error', (err: string) => {
-    console.log('Error ' + err);
-});
+export default client;
