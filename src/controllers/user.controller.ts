@@ -1,20 +1,22 @@
-exports.createUser = () => {
+
+
+exports.createUser = async() => {
 
 }
 
-exports.loginUser = () => {
+exports.loginUser = async() => {
     
 }
 
-exports.getAllUsers = () => {
+exports.getAllUsers = async() => {
     
 }
 
-exports.getUsersPost = () => {
+exports.getUsersPost = async() => {
     
 }
 
-exports.getUsersComments = () => {
+exports.getUsersComments = async() => {
     
 }
 

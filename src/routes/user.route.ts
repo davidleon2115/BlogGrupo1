@@ -15,7 +15,4 @@ router.get('/me', getUsersPost);
 router.get('/orders', getUsersComments);
 
 
-
-
-
 module.exports = { usersRouter: router };
