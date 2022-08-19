@@ -1,8 +1,8 @@
-// import { User } from "./user.model";
+import { User } from "./user.model";
 
-// export interface ProductService {
-//   getAll(): User[] | Promise<User[]>;
-//   update(id: User['id'], changes: UpdateUserDto): User | Promise<User>;
-//   create(dto: CreateUserDto): User | Promise<User>;
-//   findOne(id: User['id']): User | undefined | Promise<User | undefined>;
-// }
+export interface UserService {
+  getAll(): User[] | Promise<User[]>;
+  update(id: User['id']): User | Promise<User>;
+  create(): User | Promise<User>;
+  findOne(id: User['id']): User | undefined | Promise<User | undefined>;
+}
